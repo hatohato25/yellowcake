@@ -14,6 +14,8 @@ media_library:
     previewStep: true
     clearable: true
 
+publish_mode: editorial_workflow
+
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
     label: 'Page'
@@ -206,7 +208,12 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Slug, name: slug, widget: hidden, default: '' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown, required: false }
+          - {
+              label: Subtitle,
+              name: subtitle,
+              widget: markdown,
+              required: false,
+            }
           - { label: Body, name: body, widget: markdown }
           - label: 'Accordion'
             name: 'accordion'
