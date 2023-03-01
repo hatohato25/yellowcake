@@ -18,7 +18,7 @@ export default ({
       <input
         className='Form--Input'
         type='text'
-        placeholder='Name'
+        placeholder='名前'
         name='name'
         required
       />
@@ -40,17 +40,17 @@ export default ({
         required
       >
         <option disabled hidden>
-          Type of Enquiry
+          問い合わせ内容を選択
         </option>
-        <option>Need to know more</option>
-        <option>Found a bug</option>
-        <option>Want to say hello</option>
+        <option>総合</option>
+        <option>ベルマーク</option>
+        <option>道祖土っ子祭り</option>
       </select>
     </label>
     <label className='Form--Label'>
       <textarea
         className='Form--Input Form--Textarea'
-        placeholder='Message'
+        placeholder='本文'
         name='message'
         rows='10'
         required
@@ -62,7 +62,7 @@ export default ({
     <input
       className='Button Form--SubmitButton'
       type='submit'
-      value='Enquire'
+      value='送る'
     />
   </form>
 )

@@ -117,7 +117,7 @@ class Form extends Component {
             value={this.state.name}
             onChange={this.handleChange}
             type='text'
-            placeholder='Your Name'
+            placeholder='名前'
             name='name'
             required
             disabled={this.state.disabled ? 'disabled' : ''}
@@ -130,7 +130,7 @@ class Form extends Component {
             value={this.state.email}
             onChange={this.handleChange}
             type='email'
-            placeholder='Your Email'
+            placeholder='Email'
             name='email'
             required
             disabled={this.state.disabled ? 'disabled' : ''}
@@ -142,7 +142,7 @@ class Form extends Component {
             className='Form--Input Form--Textarea'
             value={this.state.message}
             onChange={this.handleChange}
-            placeholder='Message'
+            placeholder='本文'
             name='message'
             rows='10'
             required
@@ -176,7 +176,7 @@ class Form extends Component {
           value='Send'
           disabled={this.state.disabled ? 'disabled' : ''}
         >
-          Enquire
+          送る
         </button>
       </form>
     )

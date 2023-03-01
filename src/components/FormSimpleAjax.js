@@ -77,44 +77,23 @@ class Form extends React.Component {
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Firstname"
-                name="firstname"
+                placeholder="学年・クラス"
+                name="class"
                 required
               />
-              <span>Firstname</span>
+              <span>学年とクラス（ex. 2-2）</span>
             </label>
             <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Lastname"
-                name="lastname"
+                placeholder="名前"
+                name="name"
                 required
               />
-              <span>Lastname</span>
+              <span>名前</span>
             </label>
           </div>
-          <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset>
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -123,7 +102,7 @@ class Form extends React.Component {
               name="emailAddress"
               required
             />
-            <span>Email address</span>
+            <span>Email アドレス</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
@@ -133,30 +112,22 @@ class Form extends React.Component {
               required
             >
               <option disabled hidden>
-                Type of Enquiry
+                問い合わせ内容を選択
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>総合</option>
+              <option>ベルマーク</option>
+              <option>道祖土っ子祭り</option>
             </select>
           </label>
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
-              placeholder="Message"
+              placeholder="本文"
               name="message"
               rows="10"
               required
             />
-            <span>Message</span>
-          </label>
-          <label className="Form--Label Form-Checkbox">
-            <input
-              className="Form--Input Form--Textarea Form--CheckboxInput"
-              name="newsletter"
-              type="checkbox"
-            />
-            <span>Get news updates</span>
+            <span>メッセージ</span>
           </label>
           <div
             className="g-recaptcha"
@@ -167,7 +138,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="送る"
             disabled={this.state.disabled}
           />
         </form>
