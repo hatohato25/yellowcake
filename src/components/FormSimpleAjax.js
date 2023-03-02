@@ -10,9 +10,9 @@ class Form extends React.Component {
     name: 'Simple Form Ajax',
     subject: '', // optional subject of the notification email
     action: '',
-    successMessage: 'Thanks for your enquiry, we will get back to you soon',
+    successMessage: '送信しました',
     errorMessage:
-      'There is a problem, your message has not been sent, please try contacting us via email'
+      '問題が発生し、メッセージが送信できませんでした。 フォームは利用せず、メールにてご連絡ください'
   }
 
   state = {
@@ -34,7 +34,7 @@ class Form extends React.Component {
         if (res.ok) {
           return res
         } else {
-          throw new Error('Network error')
+          throw new Error('ネットワークエラー')
         }
       })
       .then(() => {
@@ -81,7 +81,7 @@ class Form extends React.Component {
                 name="class"
                 required
               />
-              <span>学年とクラス（ex. 2-2）</span>
+              <span>学年・クラス（ex. 2-2）</span>
             </label>
             <label className="Form--Label">
               <input
@@ -98,11 +98,11 @@ class Form extends React.Component {
             <input
               className="Form--Input Form--InputText"
               type="email"
-              placeholder="Email"
+              placeholder="メール"
               name="emailAddress"
               required
             />
-            <span>Email アドレス</span>
+            <span>メール</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
@@ -127,7 +127,7 @@ class Form extends React.Component {
               rows="10"
               required
             />
-            <span>メッセージ</span>
+            <span>本文</span>
           </label>
           <div
             className="g-recaptcha"
@@ -138,7 +138,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="送る"
+            value="送信"
             disabled={this.state.disabled}
           />
         </form>

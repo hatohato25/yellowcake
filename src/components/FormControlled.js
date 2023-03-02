@@ -77,7 +77,7 @@ class Form extends Component {
       })
       .then(
         this.resetForm({
-          alert: 'Thanks for your enquiry, we will get back to you soon.'
+          alert: '送信しました'
         })
       )
       .catch(err => {
@@ -85,7 +85,7 @@ class Form extends Component {
         this.setState({
           disabled: false,
           alert:
-            '❗️ There is a problem, your message has not been sent, please try contacting us via email'
+            '❗️ 問題が発生し、メッセージが送信できませんでした。 フォームは利用せず、メールにてご連絡ください'
         })
       })
   }
@@ -130,7 +130,7 @@ class Form extends Component {
             value={this.state.email}
             onChange={this.handleChange}
             type='email'
-            placeholder='Email'
+            placeholder='メール'
             name='email'
             required
             disabled={this.state.disabled ? 'disabled' : ''}
@@ -176,7 +176,7 @@ class Form extends Component {
           value='Send'
           disabled={this.state.disabled ? 'disabled' : ''}
         >
-          送る
+          送信
         </button>
       </form>
     )

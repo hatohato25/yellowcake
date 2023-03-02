@@ -2,9 +2,9 @@ import { Component } from 'react'
 
 export default class ServiceWorkerNotifications extends Component {
   static defaultProps = {
-    readyMessage: 'This site is cached for offline use!',
-    updatedMessage: 'New content is available please refresh.',
-    offlineMessage: 'You are now offline, browsing from cache.',
+    readyMessage: 'オフラインのため、キャッシュされました',
+    updatedMessage: '新しいコンテンツがあります。リロードしてください',
+    offlineMessage: 'オフラインです。キャッシュで閲覧しています',
     ready: false,
     updated: false,
     offline: false,

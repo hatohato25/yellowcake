@@ -27,7 +27,7 @@ export default ({
       <input
         className='Form--Input'
         type='email'
-        placeholder='Email'
+        placeholder='メール'
         name='email'
         required
       />
@@ -62,7 +62,7 @@ export default ({
     <input
       className='Button Form--SubmitButton'
       type='submit'
-      value='送る'
+      value='送信'
     />
   </form>
 )
