@@ -13,4 +13,10 @@ meta:
 
 [さいたま市立道祖土小学校](https://saido-e.saitama-city.ed.jp/)
 
-[](https://saido-e.saitama-city.ed.jp/)[](https://www.saitama-city.ed.jp/)
+[さいたま市立教育研究所](https://www.saitama-city.ed.jp/)
+
+
+
+[](https://gakkoukyouiku.saitama-city.ed.jp/)
+
+[](https://gakkoukyouiku.saitama-city.ed.jp/)
