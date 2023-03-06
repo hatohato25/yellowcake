@@ -1,18 +1,17 @@
 ---
 template: SinglePost
-title: Red
+title: "心の鬼をやっつけよう "
 status: Featured / Published
-date: '2018-03-27'
-featuredImage: 'https://ucarecdn.com/94633346-778b-4474-8039-b18280ec73a3/'
-excerpt: >-
-  Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
-  interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
-  est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
+date: 2023-03-31
+featuredImage: https://ucarecdn.com/94633346-778b-4474-8039-b18280ec73a3/
+excerpt: Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu.
+  Nullam interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque
+  lectus est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
   pellentesque, lacinia risus ut, imperdiet eros.
 categories:
   - category: News
 meta:
-  canonicalLink: ''
+  canonicalLink: ""
   description: test meta description
   noindex: false
   title: test meta title
@@ -21,37 +20,45 @@ Paragraphs are separated by a blank line.
 
 ![Test Image](https://ucarecdn.com/ac9898a0-413a-467b-95fa-0a9959c30710/)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Id64silK_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+　２月は、「如月（きさらぎ）」と言われ、衣更着とも書くように厳しい寒さで更に重ね着をする
+という意味があると聞きます。昔の人は１年で一番寒いこの時期を大寒と呼びました。今年は、
+１月２０日から２月３日までとなります。大寒が終わる２月３日を「季節の分かれ目」というこ
+とで「節分」と呼びました。節分の翌日、２月４日は「立春」となり、名前のとおり春が始まっ
+た１日目となります。季節の分かれ目は年に４回あるのに、冬から春になるときだけが「節分」
+という言葉として残ったのは、寒さを我慢していた冬から、命が始まる春が来るということで、
+冬から春への変わり目はとても大切だからです。節分と言えば「豆まき」。病気や災害を鬼にた
+とえて、悪い鬼が来ないように願ってかけ声をかけて豆をまくのです。私も子どもの頃は、家の
+中で鬼の面をかぶり、「福は内、鬼は外！」とはしゃぎながら豆をまき、家じゅう豆だらけにな
+ったことを思い出します。
+　ところで、私は、令和３年の１１月の講話朝会で、道祖土小の子どもたちに「心の鬼をやっつ
+けよう」という内容で、次のような話をしました。
+人間は、自分の心の中に、１０匹の鬼がすんでいると言われています。誰の心の中にもすんでいる１０匹
+の鬼とはいったいどんな鬼なのでしょうか。
 
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
+ １つ目の鬼は…気に入らないから困らせてやろう。「いじわる鬼」
+ ２つ目は…あの人うらやましいな、憎たらしい。「ねたみ鬼」
+ ３つ目は…自分さえよければ、ほかの人は関係ない。「わがまま鬼」
+ ４つ目は…カッとなってひどいことを言ったり暴力をふるったりする。「ムカつき鬼」
+ ５つ目は…物を壊す、物にあたる、物を傷つける。「破壊鬼」
+ ６つ目は…人によって態度をころころ変える。「うらおもて鬼」
+ ７つ目は…自分が叱られたくないからごまかす。「うそつき鬼」
+ ８つ目は…気分が乗らないからやりたくない、自分には関係ない。「しらけ鬼」
+ ９つ目は…面倒くさいことはやらない。楽をする。誰かに押し付ける。「さぼり鬼」
+ 最後に１０番目は…勉強なんかやってられない。遊ぶことばかり、ふざけることばかり考える。「なまけ鬼」
+しかし、人間の体がウイルスをやっつける力をもっているのと同じように、人間の心には鬼たちをやっつける
+正しいパワーが宿っています。この正しいパワーを強くしていけば鬼たちに負けることはありません。自分た
+ちの心のパワーを信じて心の鬼に負けないでください。・・・（後略）・・・
 
-### Unordered lists:
-
-* this one
-* that one
-* the other one
-
-### Ordered lists:
-
-1. first item
-2. second item
-3. third item
-
-> Block quotes are written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-## Heading 2
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+　実はこの話、今からもう２５年ぐらい前に自分が勤務していた学校の校長先生からいただい
+た言葉なのです。その校長先生は、１０番目の鬼を「脳みそチューチュー鬼」と言っていらっ
+しゃいました。私は、毎年自分が担任する子どもたちに話して聞かせ、学年主任の時には学年
+全員の子どもたちに話し、教頭の時には友達とのトラブルで苦しんでいる子どもたちに励まし
+の気持ちを込めて伝えてきました。
+　先述した「正しいパワー」の一つとして、私は「自己肯定感」がとても重要になってくると
+思っています。子どもの話を肯定的に聞く、子どもに選択させる機会を増やす、自分の考えを
+もてるように子どもにも意見を求める、結果ではなく過程をほめる、他の子と比較しない、先
+回りして準備をしすぎない、等のかかわりを継続することで、自分のことを好きになり、他者
+を信頼し、人の役に立っていると実感する人間に育つのだそうです。
+　将来、さまざまな困難や問題を乗り越える力や、自分の夢や目標に向かって進んでいく力を
+蓄える土台となる「自己肯定感」を育んでいくために、これからも御家庭や地域の皆様の御支
+援をいただきますようお願いいたします
